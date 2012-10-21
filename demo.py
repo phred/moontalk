@@ -32,7 +32,7 @@ def downsample(img):
    cv.EqualizeHist(small, small)
    return small
 
-def repeat():
+def detect_loop():
   frame = cv.QueryFrame(capture)
   clean = downsample(frame)
 
@@ -41,6 +41,11 @@ def repeat():
   cv.ShowImage("w2", clean)
 
 def run():
+  while True:
+      frame = cv.QueryFrame(capture)  
+      cv.ShowImage("w1", frame)
+
+def run2():
     while True:
-        repeat()
+        detect_loop()
 

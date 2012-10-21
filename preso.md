@@ -15,6 +15,11 @@
 ---
 # import antigravity
 ---
+<img src="antigrav.png" style="width: 588px; margin-left: 10%; margin-right: 10%;"/>
+
+.fx: imageslide
+
+---
 # &ldquo;Space in yo face&rdquo;
 ---
 # How do Geeks get to Space?
