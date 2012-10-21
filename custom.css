@@ -1,0 +1,68 @@
+/* We can customize the theme CSS here */
+
+body {
+  font-family: "Museo Slab";
+}
+
+blockquote {
+  font-size:  1.6em;
+  line-height: 1.2em;
+  color: #ccc;
+}
+
+h1 {
+  color: #fff000 !important;
+}
+
+.rad {
+  font-size: 1.8em;
+  color: #fff000;
+}
+
+code {
+  font-family: Menlo;
+  font-size: 1.0em;
+  line-height: 1.8em;
+}
+
+.oops {
+  text-decoration: line-through;
+  color: #999;
+}
+
+div.imageslide img.mid {
+  width: 800px !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+
+div.imageslide img.shuttle {
+  width: 624px !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+
+div.imageslide h2 {
+  position: absolute;
+  right: 10%;
+  bottom: 4%;
+  z-order: 10000;
+  font-size: 14px;
+}
+
+.fancy {
+  color: #0f4;
+}
+
+.ohmy {
+  color: #97c;
+}
+
+.yup {
+  color: #ff0;
+  font-size: 1.3em;
+}
+
+.whiteheading h1 {
+  text-shadow: 2px 2px 2px #000;
+}
